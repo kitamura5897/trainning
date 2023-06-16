@@ -8,13 +8,59 @@
 import SwiftUI
 
 struct TopControlView: View {
+    
+    enum SelectedItem {
+        case tinder, good, comment, profile
+    }
+    
+    private var frameWidth: CGFloat {
+        UIScreen.main.bounds.width
+    }
+    
+    @State var selectedItem: SelectedItem = .good
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Button(action: {
+                selectedItem = .tinder
+            }, label: {
+                Image(systemName: "flame.fill")
+                    .asTopControlButtonImage()
+                    .foregroundColor(selectedItem == .tinder ? .red : .gray)
+            })
+            .padding(.leading, 30)
+            .frame(width: frameWidth / 4)
+            
+            Button(action: {
+                selectedItem = .good
+            }, label: {
+                Image(systemName: "diamond.fill")
+                    .asTopControlButtonImage()
+                    .foregroundColor(selectedItem == .good ? .yellow : .gray)
+            })
+            .frame(width: frameWidth / 4)
+            
+            Button(action: {
+                selectedItem = .comment
+            }, label: {
+                Image(systemName: "bubble.right.fill")
+                    .asTopControlButtonImage()
+                    .foregroundColor(selectedItem == .comment ? .green : .gray)
+            })
+            .frame(width: frameWidth / 4)
+            
+            Button(action: {
+                selectedItem = .profile
+            }, label: {
+                Image(systemName: "person.fill")
+                    .asTopControlButtonImage()
+                    .foregroundColor(selectedItem == .profile ? .cyan : .gray)
+            })
+            .padding(.trailing, 30)
+            .frame(width: frameWidth / 4)
+        }
+        .padding()
+        .frame(width: frameWidth)
     }
 }
 
-struct TopControlView_Previews: PreviewProvider {
-    static var previews: some View {
-        TopControlView()
-    }
-}
