@@ -2,7 +2,7 @@
 //  TinderCloneApp.swift
 //  TinderClone
 //
-//  Created by 喜多村海人 on 2023/05/05.
+//  Created by 喜多村海人 on 2023/06/16.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct TinderCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            ContentView()
         }
     }
 }
