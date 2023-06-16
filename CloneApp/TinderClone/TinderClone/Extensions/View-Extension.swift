@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-extension View {
-    
-    func asRoundShadow(size: CGFloat) -> some View {
-        modifier(BottomButtonModifier(size: size))
-    }
-}
+//extension View {
+//
+//    func asRoundShadow(size: CGFloat) -> some View {
+//        modifier(BottomButtonModifier(size: size))
+//    }
+//}

@@ -19,7 +19,6 @@
 		A8C47B102A04FBE600D85265 /* TinderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C47B0F2A04FBE600D85265 /* TinderCloneUITests.swift */; };
 		A8C47B122A04FBE600D85265 /* TinderCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C47B112A04FBE600D85265 /* TinderCloneUITestsLaunchTests.swift */; };
 		A8C47B202A0500CE00D85265 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C47B1F2A0500CE00D85265 /* TopControlView.swift */; };
-		A8C47B232A0501B100D85265 /* Button-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C47B222A0501B100D85265 /* Button-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		A8C47B0F2A04FBE600D85265 /* TinderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITests.swift; sourceTree = "<group>"; };
 		A8C47B112A04FBE600D85265 /* TinderCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A8C47B1F2A0500CE00D85265 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
-		A8C47B222A0501B100D85265 /* Button-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +168,6 @@
 		A8C47B212A05018100D85265 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A8C47B222A0501B100D85265 /* Button-Extension.swift */,
 				A8A013042A12350D006F62A7 /* View-Extension.swift */,
 				A8A013062A123535006F62A7 /* Image-Extension.swift */,
 			);
@@ -313,7 +310,6 @@
 				A8A013052A12350D006F62A7 /* View-Extension.swift in Sources */,
 				A8C47AF52A04FBE400D85265 /* TinderCloneApp.swift in Sources */,
 				A8A013072A123535006F62A7 /* Image-Extension.swift in Sources */,
-				A8C47B232A0501B100D85265 /* Button-Extension.swift in Sources */,
 				A8A013032A1234C9006F62A7 /* BottomButtonModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
